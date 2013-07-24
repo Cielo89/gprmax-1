@@ -1,0 +1,37 @@
+#title: Common Source Gather Model
+#messages: y
+#domain: 4.0 2.0
+#dx_dy: 0.005 0.005
+#time_window: 50.0e-9
+#geometry_file: csg.geo
+
+Define media
+
+#medium: 3.0 0.0 0.0 0.0 1.0 0.0 sand
+#medium: 20.0 0.0 0.0 0.0 1.0 0.0 saturated_sand
+#medium: 6.0 0.0 0.0 0.0 1.0 0.0 concrete
+#medium: 12.0 0.0 0.0 0.0 1.0 0.0 clay
+
+Geometry 
+
+#box: 0.0 0.0 4.0 1.75 concrete
+#box: 0.0 0.0 4.0 1.0 sand
+#box: 0.0 0.0 4.0 0.75 saturated_sand
+#box: 0.0 0.0 4.0 0.20 clay
+
+Store traces of the Common source gather in binary form 
+The first Tx is 0.5 m away from Tx 
+
+#line_source: 1.0 600e6 ricker MySource
+#analysis: 1 csg.out b
+#tx: 0.2 1.76 MySource 0.0 50e-9
+#rx_box: 0.7 1.76 3.8 1.76 0.025 0.005
+#end_analysis:
+
+Use the PML boundary condition with 10 layers
+
+#abc_type: pml
+#pml_layers: 10
+
+#messages: y
+

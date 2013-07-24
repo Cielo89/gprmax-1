@@ -1,0 +1,60 @@
+LICENCE:
+
+GprMax2D V 2.0 (Electromagnetic simulator for Ground Probing Radar)\\
+GprMax3D V 2.0 (Electromagnetic simulator for Ground Probing Radar)
+
+AUTHOR: Antonis Giannopoulos
+
+COPYRIGHT: Antonis Giannopoulos, 2002, 2003, 2005
+
+TERMS AND CONDITIONS
+
+This Licence applies to the GprMax2D and Gprmax3D executable forms, object
+codes  and to every file which is part of the GprMax2D and GprMax3D source codes.
+The ``Programmes'', below, refers to the executable images of
+GprMax2D and GprMax3D and to all the files which constitute the source codes
+for GprMax2D and GprMax3D. The licencee is addressed as ``you''. Any
+modification of the Programmes and their source code including
+translation to other programming languages is referred to
+as ``modification''.
+
+1.
+You are licenced to copy and distribute only verbatim copies
+of the Programmes in any medium. You must keep intact all the notices
+that refer to their Licence and all copyright notices
+included in the Programmes.
+
+Activities other than running, copying, distribution and modification
+are not covered by this Licence; they are outside its scope.
+
+2.
+You may not modify your copy or copies of the Programmes or
+any portions of them, thus forming a work based on the Programmes.
+
+                	NO WARRANTY
+
+THERE IS NO WARRANTY FOR THE PROGRAMMES, TO THE EXTENT PERMITTED
+BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE
+COPYRIGHT HOLDER PROVIDES THE PROGRAMMES ``AS IS'' WITHOUT ANY WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND
+PERFORMANCE OF THE PROGRAMMES IS WITH YOU. SHOULD THE PROGRAMMES PROVE
+DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR
+OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN
+WRITING WILL THE COPYRIGHT HOLDER BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL
+DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAMMES
+(INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED
+INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE
+OF THE PROGRAMMES TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH
+HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES.
+
+END OF TERMS AND CONDITIONS
+
+
+
+

@@ -1,0 +1,48 @@
+#medium: 6.0 0.0 0.0 0.005 1.0 0.0 concrete
+#medium: 3.0 0.0 0.0 0.0001 1.0 0.0 dry_sand
+---------------------------------------------------------------------
+#domain: 2.5 0.35
+#dx_dy: 0.0025 0.0025
+#time_window: 12e-9
+---------------------------------------------------------------------
+#box: 0.0 0.0 2.5 0.3 dry_sand 
+#box: 0.0 0.15 2.5 0.3 concrete
+#cylinder: 0.15 0.225 0.005 pec
+#cylinder: 0.35 0.225 0.005 pec
+#cylinder: 0.55 0.225 0.005 pec 
+#cylinder: 0.75 0.225 0.005 pec 
+#cylinder: 0.95 0.225 0.005 pec
+#cylinder: 1.15 0.225 0.005 pec
+#cylinder: 1.35 0.225 0.005 pec
+#cylinder: 1.55 0.225 0.005 pec 
+#cylinder: 1.75 0.225 0.005 pec 
+#cylinder: 1.95 0.225 0.005 pec
+#cylinder: 2.15 0.225 0.005 pec
+#cylinder: 2.35 0.225 0.005 pec
+#box: 0.35 0.1275 0.65 0.15 free_space
+#box: 0.65 0.1 0.95 0.15 free_space
+#box: 0.95 0.095 1.25 0.15 free_space
+#box: 1.25 0.05 1.85 0.15 free_space
+#box: 1.85 0.1275 2.15 0.15 free_space
+------------- Use two nodes thick pec for the cover ---------
+#box: 1.55 0.045 1.85 0.05 pec
+#box: 1.85 0.045 1.855 0.1275 pec
+#box: 1.8525 0.1225 2.15 0.1275 pec
+#box: 2.15 0.1225 2.1575 0.15 pec
+#box: 2.15 0.145 2.5 0.15 pec
+-------------------------------------------------------------
+#line_source: 1.0 900e6 ricker MyLineSource
+-------------------------------------------------------------
+#analysis: 115 bre3.out b
+#tx: 0.0875 0.3025 MyLineSource 0.0 12e-9
+#rx: 0.1125 0.3025
+#tx_steps: 0.02 0.0
+#rx_steps: 0.02 0.0
+#end_analysis: 
+------------------------------------------------------------
+#geometry_file: bre3.geo
+#title: BRE Model 3
+#messages: y
+
+
+

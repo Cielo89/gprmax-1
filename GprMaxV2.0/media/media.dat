@@ -1,0 +1,4 @@
+This is a sample media file  for GPRMAX 2D/3D
+# 3.0 0.0 0.0 0.001 1.0 0.0 sand
+# 6.0 0.0 0.0 0.01 1.0 0.0 concrete
+# 82.3 5.5 10.9e-12 0.0 1.0 0.0 water
